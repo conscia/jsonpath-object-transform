@@ -1,11 +1,11 @@
 # jsonpath-object-transform
-> Transform an object literal using JSONPath.
+> Transform an object literal using jsonpath.
 
 [![Build Status](https://semaphoreci.com/api/v1/dwayne/jsonpath-object-transform/branches/master/badge.svg)](https://semaphoreci.com/dwayne/jsonpath-object-transform)
 
 Pulls data from an object literal using JSONPath and generate a new objects based on a template. Each of the template's properties can pull a single property from the source data or an array of all results found by its JSONPath. When pulling an array of data you can also supply a subtemplate to transform each item in the array.
 
-JSONPath is like XPath for JavaScript objects. To learn the syntax, read the documentation for the [JSONPath](https://www.npmjs.org/package/JSONPath) package on npm and the [original article](http://goessner.net/articles/JsonPath/) by Stefan Goessner.
+JSONPath is like XPath for JavaScript objects. To learn the syntax, read the documentation for the [jsonpath](https://www.npmjs.org/package/jsonpath) package on npm and the [original article](http://goessner.net/articles/JsonPath/) by Stefan Goessner.
 
 ## Usage
 ```js
