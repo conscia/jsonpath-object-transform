@@ -4,7 +4,7 @@
   "description": "Transform an object literal using JSONPath.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,8 @@
     "jsonpath-plus": "conscia/JSONPath.git#master"
   },
   "devDependencies": {
-    "bower": "^1.3.1"
+    "bower": "^1.3.1",
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
   }
 }
